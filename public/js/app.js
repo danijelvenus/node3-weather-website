@@ -17,7 +17,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageTwo.textContent = ''
             } else {
                 messageOne.textContent = ''
-                messageTwo.textContent = `${data.forecast.description} - Temp: ${data.forecast.temp} - Location: ${data.location} - Humidity: ${data.forecast.humidity}`
+                messageTwo.textContent = `Description: ${data.forecast.description} - Temp: ${data.forecast.temp} - Location: ${data.location} - Humidity: ${data.forecast.humidity}`
             }
         })
     })
